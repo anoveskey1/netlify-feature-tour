@@ -56,10 +56,11 @@ import Layout from '../components/layout.astro';
     <h2 class="heading">Make this form functional</h2>
 
     <form
+      action="/success"
       class="form"
+      data-netlify="true"
       method="POST"
       name="contact"
-      action="/success"
     >
       <label htmlFor="name">Name</label>
       <input type="text" id="name" name="name" />
