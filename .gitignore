@@ -21,3 +21,6 @@ _old/
 
 # Local Netlify folder
 .netlify
+
+# Local IDE configs
+.idea
